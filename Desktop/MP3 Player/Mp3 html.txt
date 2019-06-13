@@ -1,0 +1,18 @@
+<html>
+<header>
+  <h1 class="head">Music Player</h1>
+ <div class="horizontal-line1"></div>
+ <div class="vertical-line"></div>
+</header>
+<section>
+  <ul class="music-list">
+    <h1>Songs</h1>
+    <li><button onclick="Song1()">?</button> Pramadavanam by Yesudas</li>
+    <li><button onclick="Song2()">?</button> Aethu Kari Ravilum by Haricharan</li>
+    <li><button onclick="Song3()">?</button> Kali Pookuyile by MG Sreekumar</li>
+    <li><button onclick="Song4()">?</button> Malare by Vijay Yesudas</li>
+  </ul>  
+ <div class="horizontal-line2"></div>
+</section>
+</html>    
+  
