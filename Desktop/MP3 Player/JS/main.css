@@ -1,0 +1,69 @@
+.head{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.music-list {
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "";
+  padding-right: 5px;
+}
+
+.horizontal-line1{
+      width: 1518px;
+    height: -10px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    border-width: thick;
+}
+
+.vertical-line{
+     border-left: 1px solid black;
+     border-width: thick;
+  height: 575px;
+  position: absolute;
+  left: 21%;
+  margin-left: -3px;
+  top: 81;
+    }
+
+.horizontal-line2{
+      width: 1518px;
+    height: 213px;
+    border-bottom: 1px solid black;
+    border-width: thick;
+    position: absolute;
+}
+
+.background {
+        background-image: url("background.jpg");
+        background-position: center;
+        background-size: 100%;
+    }
+
+.buttonpause
+  {
+   background-image: url('Pause.png');
+   height: 25px;
+   width: 25px;
+   background-size: 100%;
+  } 
+   
+.buttonplay
+  { 
+    background-image: url('Play.png');
+    height: 26px;
+    width: 26px;
+    background-size: 100%;
+  } 
+
+
